@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="064970b9-916f-448d-8853-cd7be5a01bcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookTest">
+  <component name="RunManager" selected="JUnit.LibraryTest.check_book_can_be_added_to_library">
     <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library_homework" />
       <option name="PACKAGE_NAME" value="" />
@@ -79,11 +78,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryTest.can_get_capacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library_homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="can_get_capacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.check_book_can_be_added_to_library" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library_homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="check_book_can_be_added_to_library" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.check_book_can_be_added_to_library" />
+        <item itemvalue="JUnit.LibraryTest.can_get_capacity" />
+        <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.BookTest" />
         <item itemvalue="JUnit.BookTest.check_book_has_author" />
-        <item itemvalue="JUnit.LibraryTest" />
       </list>
     </recent_temporary>
   </component>
