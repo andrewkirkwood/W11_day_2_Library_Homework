@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="064970b9-916f-448d-8853-cd7be5a01bcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BorrowerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BorrowerTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +51,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BorrowerTest.borrower_collection_starts_empty">
+  <component name="RunManager" selected="JUnit.LibraryTest.can_remove_a_book">
+    <configuration name="BorrowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library_homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BorrowerTest.borrower_collection_starts_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library_homework" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,40 +71,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BorrowerTest.can_get_borrower_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BorrowerTest.can_get_borrower_remaining_reservation_count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library_homework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
-      <option name="METHOD_NAME" value="can_get_borrower_name" />
+      <option name="METHOD_NAME" value="can_get_borrower_remaining_reservation_count" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BorrowerTest.can_get_borrower_remaining_reservation_count_with_books_in_collection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library_homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryTest.can_get_capacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="library_homework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="can_get_capacity" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <option name="METHOD_NAME" value="can_get_borrower_remaining_reservation_count_with_books_in_collection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.check_book_can_be_added_to_library" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.can_remove_a_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library_homework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="check_book_can_be_added_to_library" />
+      <option name="METHOD_NAME" value="can_remove_a_book" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.can_remove_a_book" />
+        <item itemvalue="JUnit.BorrowerTest.can_get_borrower_remaining_reservation_count_with_books_in_collection" />
+        <item itemvalue="JUnit.BorrowerTest.can_get_borrower_remaining_reservation_count" />
+        <item itemvalue="JUnit.BorrowerTest" />
         <item itemvalue="JUnit.BorrowerTest.borrower_collection_starts_empty" />
-        <item itemvalue="JUnit.BorrowerTest.can_get_borrower_name" />
-        <item itemvalue="JUnit.LibraryTest.check_book_can_be_added_to_library" />
-        <item itemvalue="JUnit.LibraryTest.can_get_capacity" />
-        <item itemvalue="JUnit.LibraryTest" />
       </list>
     </recent_temporary>
   </component>

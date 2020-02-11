@@ -18,4 +18,17 @@ public class Borrower {
     public int getCollection() {
         return this.collection.size();
     }
+
+    public int getBorrowLimit() {
+        if ( this.collection.size() == 0) {
+            return this.borrowLimit;
+        }
+        return this.borrowLimit - this.getCollection();
+    }
+
+    public void addBookToCollection(Book book) {
+        if ( this.getCollection() < this.borrowLimit) {
+            this.collection.add(book);
+        }
+    }
 }

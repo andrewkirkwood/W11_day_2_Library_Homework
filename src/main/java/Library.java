@@ -22,4 +22,9 @@ public class Library {
     public int getCapacity() {
         return this.capacity;
     }
+
+    public void removeBook(Book book) {
+        int indexToDelete = this.books.indexOf(book);
+        this.books.remove(indexToDelete);
+    }
 }

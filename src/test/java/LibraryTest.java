@@ -33,5 +33,13 @@ public class LibraryTest {
     public void can_get_capacity(){
         assertEquals(5,library.getCapacity());
     }
+    @Test
+    public void can_remove_a_book(){
+        library.addBook(book);
+        library.addBook(book);
+        library.addBook(book);
+        library.removeBook(book);
+        assertEquals(2, library.getBooksLength());
+    }
 
 }
