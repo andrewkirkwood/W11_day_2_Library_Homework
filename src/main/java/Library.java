@@ -27,4 +27,15 @@ public class Library {
         int indexToDelete = this.books.indexOf(book);
         this.books.remove(indexToDelete);
     }
+
+    public void loanBook(Book book, Borrower borrower) {
+        if (borrower.getCollection() < borrower.getBorrowLimit() && this.checkIfBookIsInStock(book)) {
+            this.removeBook(book);
+            borrower.addBookToCollection(book);
+        }
+    }
+
+    public boolean checkIfBookIsInStock(Book book) {
+        return this.books.contains(book);
+    }
 }
