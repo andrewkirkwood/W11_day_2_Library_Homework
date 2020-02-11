@@ -7,6 +7,8 @@ public class LibraryTest {
     private Library library;
     private Book book;
     private Book book1;
+    private Book book2;
+    private Book book3;
     private Borrower borrower;
 
     @Before
@@ -14,6 +16,10 @@ public class LibraryTest {
         library = new Library();
         book = new Book("Alice In Wonderland", "Lewis Carrol", "fantasy");
         book1 = new Book("1984", "George Orwell", "dystopian");
+        book2 = new Book("Animal Farm", "George Orwell", "dystopian");
+        book3 = new Book("Book Of Dust", "Phillip Pullman", "fantasy");
+
+
         borrower = new Borrower("Sam");
     }
 
@@ -65,6 +71,21 @@ public class LibraryTest {
         library.loanBook(book, borrower);
         assertEquals(1, borrower.getCollection());
         assertEquals(1, library.getBooksLength());
+    }
+
+    @Test
+    public void check_borrower_collection_length_is_limited_to_borrow_capacity(){
+        library.addBook(book);
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book3);
+        library.loanBook(book, borrower);
+        library.loanBook(book1, borrower);
+        library.loanBook(book2, borrower);
+        library.loanBook(book3, borrower);
+        assertEquals(3, borrower.getCollection());
+        assertEquals(1, library.getBooksLength());
+
     }
 
 

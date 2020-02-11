@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="064970b9-916f-448d-8853-cd7be5a01bcb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Borrower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Borrower.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" afterDir="false" />
     </list>
@@ -50,7 +52,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
+  <component name="RunManager" selected="JUnit.LibraryTest.check_borrower_collection_length_is_limited_to_borrow_capacity">
+    <configuration name="BorrowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library_homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library_homework" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,21 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.can_loan_book_new_customer_with_no_books_yet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.check_borrower_collection_length_is_limited_to_borrow_capacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library_homework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="can_loan_book_new_customer_with_no_books_yet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryTest.can_remove_a_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="library_homework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="can_remove_a_book" />
+      <option name="METHOD_NAME" value="check_borrower_collection_length_is_limited_to_borrow_capacity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.check_borrower_collection_length_is_limited_to_borrow_capacity" />
+        <item itemvalue="JUnit.BorrowerTest" />
         <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.LibraryTest.can_check_if_book_is_in_stock__book_does_not_exit" />
         <item itemvalue="JUnit.LibraryTest.can_check_if_book_is_in_stock" />
-        <item itemvalue="JUnit.LibraryTest.can_loan_book_new_customer_with_no_books_yet" />
-        <item itemvalue="JUnit.LibraryTest.can_remove_a_book" />
       </list>
     </recent_temporary>
   </component>

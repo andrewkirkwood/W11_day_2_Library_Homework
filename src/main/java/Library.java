@@ -29,7 +29,7 @@ public class Library {
     }
 
     public void loanBook(Book book, Borrower borrower) {
-        if (borrower.getCollection() < borrower.getBorrowLimit() && this.checkIfBookIsInStock(book)) {
+        if (borrower.getBorrowLimit() > 0 && this.checkIfBookIsInStock(book)) {
             this.removeBook(book);
             borrower.addBookToCollection(book);
         }

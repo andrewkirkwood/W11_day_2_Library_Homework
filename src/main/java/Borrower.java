@@ -27,7 +27,7 @@ public class Borrower {
     }
 
     public void addBookToCollection(Book book) {
-        if ( this.getCollection() < this.borrowLimit) {
+        if ( this.getCollection() <= this.borrowLimit) {
             this.collection.add(book);
         }
     }
